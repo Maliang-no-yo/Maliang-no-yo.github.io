@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+    background-image: url('imgs/flag.png');
+}
+
+.cards {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    float: left;
+    transform: translateY(-50%);
+    margin-left: 2.5%;
+}
+
+.card h2 {
+    font-size: 1em;
+}
+
+.card {
+    float: left;
+    background-color: rgba(233, 233, 233, 0.521);
+    width: 10%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    transition: ease-in-out 0.7s;
+    border-radius: 10%;
+}
+
+.cards img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.hover {
+    background-color: rgba(219, 45, 132, 0.692);
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.7s;
+}
+
+.yourCard {
+    width: 20%;
+    position: absolute;
+    right: 5%;
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.yourCard img {
+    width: 100%;
+}
